@@ -12,7 +12,22 @@ namespace ssayMyNameAgain
             string UserName = "";
             Console.WriteLine("What is your name?");
             UserName = Console.ReadLine();
-            Console.WriteLine($"Hello {UserName}, nice to meet you!");
+            if (UserName == "Emily")
+            {
+                Console.WriteLine($"Hello {UserName}!");
+            }
+
+            else if (UserName == "Joe")
+            {
+                Console.WriteLine($"Hello {UserName}!");
+            }
+
+
+
+            else
+            {
+                Console.WriteLine("Hello Human, I am trained to only respond to specific names. You are not one of them. Goodbye and never return!");
+            }
 
             //pause
             Console.ReadLine();
